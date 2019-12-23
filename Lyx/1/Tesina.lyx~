@@ -203,12 +203,230 @@ Matrice LRC
 Modello Funzionale
 \end_layout
 
+\begin_layout Standard
+Il modello funzionale descrive il sistema informativo dal punto di vista
+ dei processi aziendali supportati che richiedono risorse informative per
+ la loro esecuzione e dalle funzionalità che offre.
+ Per quanto riguarda la classificazione dei processi aziendali, è possibile
+ fare riferimento a tre modelli principali: 
+\series bold
+La catena del valore di Porter
+\series default
+, 
+\series bold
+il modello di Anthony
+\series default
+ e 
+\series bold
+il modello di Simon
+\series default
+.
+\end_layout
+
 \begin_layout Subsection
 Catena del valore di Porter
 \end_layout
 
+\begin_layout Standard
+Secondo il modello di Porter, la struttura organizzativa dell’azienda può
+ essere suddivisa in 9 processi: 5 primari e 4 di supporto.
+ Come è possibile osservare dalla figura 1, i 5 primari sono:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Logistica in entrata:
+\series default
+ gestione dell’ingresso delle materie prime, come materiali e composti chimici
+ necessari a produrre cere, oli etc;
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Produzione:
+\series default
+ attività di mescolazione di materie prime tramite un macchinario industriale,
+ che viene delegata agli operai o al chimico, al fine di ottenere i prodotti
+ finali;
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Logistica in uscita:
+\series default
+ gestione dell’esportazione dei beni verso i clienti;
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Marketing e Vendite:
+\series default
+ non presente;
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Servizi post-vendita:
+\series default
+ attività di supporto al cliente ed eventuali feedback riguardo la qualità
+ dei prodotti venduti.
+\end_layout
+
+\begin_layout Standard
+Mentre i 4 processi secondari sono: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Approvvigionamenti:
+\series default
+ attività preposte all’acquisto delle materie prime, necessarie alla realizzazio
+ne dei prodotti, come shampi, cere per capelli, etc.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Infrastrutture:
+\series default
+ gestione della contabilità, affari legali; 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Tecnologia:
+\series default
+ non presente; 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Risorse umane:
+\series default
+ non presente;
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/catenaPorter.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Catena del valore di Porter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Modello di Anthony
+\end_layout
+
+\begin_layout Standard
+Per avere un quadro completo della situazione all’interno dell’azienda,
+ vengono riportati di seguito anche i modelli di Anthony e Simon.
+ Per quanto riguarda la piramide di Anthony, essa individua 3 classi di
+ attività all’interno dell’azienda:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Attività strategiche:
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Attività tattiche:
+\series default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Attività operative:
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/PiramideAnthony1.png
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Piramide di Anthony
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Diagramma dei casi d'uso
+\end_layout
+
+\begin_layout Subsection
+Activity Diagram
+\end_layout
+
+\begin_layout Subsection
+Data Flow Diagram
+\end_layout
+
+\begin_layout Subsection
+Assembly Lines
 \end_layout
 
 \begin_layout Subsection
