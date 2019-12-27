@@ -368,11 +368,13 @@ Per avere un quadro completo della situazione all’interno dell’azienda,
 \begin_layout Enumerate
 
 \series bold
-Attività strategiche: dati i numerosi contatti già instaurati dall'azienda,
- si vuole puntare a migliorare i rapporti già esistenti con i clienti attuali,
- tramite una maggiore comunicazione con gli stessi e fornendogli un servizio
- più efficiente, andando quindi a migliorare i processi aziendali e il modo
- con cui i clienti interagiscono.
+Attività strategiche:
+\series default
+ dati i numerosi contatti già instaurati dall'azienda, si vuole puntare
+ a migliorare i rapporti già esistenti con i clienti attuali, tramite una
+ maggiore comunicazione con gli stessi e fornendogli un servizio più efficiente,
+ andando quindi a migliorare i processi aziendali e il modo con cui i clienti
+ interagiscono.
  
 \end_layout
 
@@ -401,7 +403,7 @@ Attività operative:
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -426,7 +428,71 @@ Piramide di Anthony
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Volendo trovare una corrispondenza con la struttura del modello di Simon,
+ non ci sono attività difficilmente strutturabili, ma sono state individuate:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività difficilmente strutturabili:
+\series default
+ Schedulazione ordini in produzione;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività parzialmente strutturabili:
+\series default
+ gestione delle richieste ordini, evasione degli ordini;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Attività completamente strutturabili:
+\series default
+ gestione delle scorte in magazzino, gestione della contabilità e anagrafica
+ clienti.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Simon.jpg
+	scale 70
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Piramide di Simon
+\end_layout
+
+\end_inset
+
 
 \end_layout
 

@@ -236,10 +236,10 @@ Secondo il modello di Porter, la struttura organizzativa dell’azienda può
 \begin_layout Enumerate
 
 \series bold
-Logistica in entrata:
+Logistica interna:
 \series default
- gestione dell’ingresso delle materie prime, come materiali e composti chimici
- necessari a produrre cere, oli etc;
+ processi relativi alla gestione interna dei prodotti, come ad esempio il
+ controllo del magazzino;
 \end_layout
 
 \begin_layout Enumerate
@@ -255,7 +255,7 @@ Produzione:
 \begin_layout Enumerate
 
 \series bold
-Logistica in uscita:
+Logistica esterna:
 \series default
  gestione dell’esportazione dei beni verso i clienti;
 \end_layout
@@ -368,7 +368,12 @@ Per avere un quadro completo della situazione all’interno dell’azienda,
 \begin_layout Enumerate
 
 \series bold
-Attività strategiche:
+Attività strategiche: dati i numerosi contatti già instaurati dall'azienda,
+ si vuole puntare a migliorare i rapporti già esistenti con i clienti attuali,
+ tramite una maggiore comunicazione con gli stessi e fornendogli un servizio
+ più efficiente, andando quindi a migliorare i processi aziendali e il modo
+ con cui i clienti interagiscono.
+ 
 \end_layout
 
 \begin_layout Enumerate
@@ -376,7 +381,8 @@ Attività strategiche:
 \series bold
 Attività tattiche:
 \series default
- 
+ fornire più canali di comunicazione, migliorare il processo produttivo
+ e l'evasione degli ordini.
 \end_layout
 
 \begin_layout Enumerate
@@ -384,7 +390,8 @@ Attività tattiche:
 \series bold
 Attività operative:
 \series default
- 
+ creazione sito web (tramite il quale effettuare ordini), automazione contatti
+ con clienti, gestione automatica scorte, gestione evasione ordini e contabilità.
 \end_layout
 
 \begin_layout Standard
