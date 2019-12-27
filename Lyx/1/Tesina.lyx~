@@ -319,16 +319,21 @@ Risorse umane:
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename images/catenaPorter.png
-	scale 50
+	scale 40
+	rotateOrigin center
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -383,13 +388,16 @@ Attività operative:
 \end_layout
 
 \begin_layout Standard
+\noindent
 \align center
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename images/PiramideAnthony1.png
 	rotateOrigin center
@@ -397,6 +405,9 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -405,6 +416,10 @@ Piramide di Anthony
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 

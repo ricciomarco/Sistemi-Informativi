@@ -359,6 +359,20 @@ filename "1/Tesina.lyx"
 \end_layout
 
 \begin_layout Chapter
+Modellazione dei Business Process
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "2/Tesina.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Modello funzionale TO-BE
 \end_layout
 
