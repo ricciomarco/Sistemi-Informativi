@@ -181,6 +181,218 @@ BackgroundPicture{logo.png}{0}}
 
 \begin_layout Section
 
+\lang american
+Analisi SWOT
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+Per poter meglio progettare il sistema che l'azienda adotterà, si è pensato
+ fare leva sulle criticità della situazione as-is.
+ Ciononostante, parte della soluzione finale potrebbe dipendere anche da
+ punti di forza o opportunità di mercato.
+ Per non escludere nessuna possibilità, è stata condotta un'analisi SWOT,
+ andando dunque ad analizzare ambiente esterno (minacce/opportunità) e ambiente
+ interno (punti di forza/debolezza).
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\lang american
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="bottom" width="40page%">
+<column alignment="left" valignment="middle" width="30page%">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Opportunità
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Minacce
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Diffondersi della cultura digitale
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+\noindent
+\align left
+Nuovi entranti nel mercato
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Punti di Forza
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Punti di Debolezza
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Pochi dipendenti / facilità di comunicazione
+\end_layout
+
+\begin_layout Itemize
+Minimo costo gestione della contabilità
+\end_layout
+
+\begin_layout Itemize
+Network di clientela consolidato
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+\noindent
+\align left
+Definizione non univoca dei ruoli
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+Mancanza processo strutturato per rapporti con clienti/fornitori
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+Mancanza gestione integrata scorte
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+Gestione non uniforme dei dati interni aziendali (anagrafica, rendicontazione,
+ ecc)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang american
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Analisi SWOT
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le azioni che ne derivano sono le seguenti:
+\end_layout
+
+\begin_layout Itemize
+Creazione di un sito web/e-commerce per incrementare la facilità di interfacciam
+ento con i clienti;
+\end_layout
+
+\begin_layout Itemize
+Adozione di un ERP per una gestione integrata dell'intera impresa, dei rapporti
+ con clienti/fornitori e dei dati interni aziendali.
+\end_layout
+
+\begin_layout Section
+Reingegnerizzazione dei processi
+\end_layout
+
+\begin_layout Standard
+BONITA
+\end_layout
+
+\begin_layout Section
+Diagramma dei casi d'uso
+\end_layout
+
+\begin_layout Section
+Activity Diagram
+\end_layout
+
+\begin_layout Section
+Data Flow Diagram
+\end_layout
+
+\begin_layout Section
+Assembly Lines
 \end_layout
 
 \end_body
