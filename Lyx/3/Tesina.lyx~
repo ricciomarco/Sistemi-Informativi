@@ -358,6 +358,15 @@ Analisi SWOT
 \end_layout
 
 \begin_layout Standard
+
+\lang american
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Le azioni che ne derivano sono le seguenti:
 \end_layout
 
@@ -375,24 +384,480 @@ Adozione di un ERP per una gestione integrata dell'intera impresa, dei rapporti
 Reingegnerizzazione dei processi
 \end_layout
 
-\begin_layout Standard
-BONITA
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Diagramma dei casi d'uso
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/to_be.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Casi d'uso
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Activity Diagram
 \end_layout
 
-\begin_layout Section
-Data Flow Diagram
+\begin_layout Subsubsection
+Registrazione Cliente
 \end_layout
 
-\begin_layout Section
-Assembly Lines
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Registrazione Cliente.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Registrazione Cliente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gestione Richiesta Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richiesta Ordine.png
+	lyxscale 40
+	scale 60
+	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Evasione Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Evasione ordine.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Evasione Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Riordino magazzino
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Riordino Magazzino.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Riordino Magazzino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+BPMN e Bonita
+\end_layout
+
+\begin_layout Standard
+In questa sezione si vuole mostrare l'utilizzo del software Bonita e della
+ notazione BPMN (Business Process Model Notation) per ottenere una rappresentazi
+one formale dei processi di business.
+ In tal modo, essi possono essere automatizzati.
+ Si è scelto di mostrare come in BPMN possano essere modellati i processi:
+ c'è un parallelismo tra i costrutti messi a disposizione da UML e da BPMN,
+ ed il loro utilizzo è 
+\begin_inset Quotes eld
+\end_inset
+
+regolato
+\begin_inset Quotes erd
+\end_inset
+
+ dall'esistenza di pattern che supportano una coerenza delle varie operazioni
+ (controllo, branching, sincronizzazione) utilizzate nei linguaggi di workflow
+ o di business process modelling.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Registrazione Cliente
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Registrazione Cliente-1.0.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Registrazione Cliente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gestione Richiesta Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Gestione richiesta ordine.png
+	lyxscale 40
+	scale 60
+	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Evasione Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Evasione Ordine-1.0.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Evasione Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Riordino magazzino
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Riordino Magazzino -1.0.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Riordino Magazzino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allo scopo di testare l'efficacia del software, si è deciso di realizzare
+ l'automazione di una parte del processo di gestione della richiesta di
+ un ordine da parte di un cliente.
+ In particolare, come mostrato di seguito, è stato automatizzato il processo
+ di scambio di messaggi da parte del titolare verso i clienti riguardanti
+ la conferma o modifica della data di consegna dell'ordine, in base alla
+ schedulazione del lavoro che viene sempre fatta manualmente dal titolare.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Diagramma accettazione scheduling con mail-5.0.png
+	lyxscale 80
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Accettazione scheduling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com'è possibile osservare, ci sono attività di competenza del titolare che
+ non sono automatizzabili: la decisione riguardo la pianificazione del lavoro
+ ed un'eventuale proposta di una data diversa.
+ Le attività di notifica sono invece eseguite automaticamente dal sistema,
+ e prevedono l'utilizzo di connettori (opportunamente testati) per usufruire
+ di un server di posta: a titolo esemplificativo, e per osservare lo scambio
+ di mail, è stato utilizzato il server Fake SMTP, configurato in locale
+ in ascolto sul porto 25.
+ 
 \end_layout
 
 \end_body

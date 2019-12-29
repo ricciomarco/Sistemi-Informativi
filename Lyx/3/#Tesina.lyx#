@@ -440,7 +440,7 @@ Registrazione Cliente
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -482,7 +482,7 @@ Gestione Richiesta Ordine
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -525,7 +525,7 @@ Evasione Ordine
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -567,7 +567,7 @@ Riordino magazzino
 placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -618,7 +618,246 @@ regolato
 \begin_inset Quotes erd
 \end_inset
 
- dall'esistenza di pattern che facilitano le operazioni 
+ dall'esistenza di pattern che supportano una coerenza delle varie operazioni
+ (controllo, branching, sincronizzazione) utilizzate nei linguaggi di workflow
+ o di business process modelling.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Registrazione Cliente
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Registrazione Cliente-1.0.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Registrazione Cliente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gestione Richiesta Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Gestione richiesta ordine.png
+	lyxscale 40
+	scale 60
+	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Evasione Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Evasione Ordine-1.0.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Evasione Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Riordino magazzino
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Riordino Magazzino -1.0.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Riordino Magazzino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allo scopo di testare l'efficacia del software, si è deciso di realizzare
+ l'automazione di una parte del processo di gestione della richiesta di
+ un ordine da parte di un cliente.
+ In particolare, come mostrato di seguito, è stato automatizzato il processo
+ di scambio di messaggi da parte del titolare verso i clienti riguardanti
+ la conferma o modifica della data di consegna dell'ordine, in base alla
+ schedulazione del lavoro che viene sempre fatta manualmente dal titolare.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Diagramma accettazione scheduling con mail-5.0 2.png
+	lyxscale 80
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Accettazione scheduling
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Com'è possibile osservare, ci sono attività di competenza del titolare che
+ non sono automatizzabili: la decisione riguardo la pianificazione del lavoro
+ ed un'eventuale proposta di una data diversa.
+ Le attività di notifica sono invece eseguite automaticamente dal sistema,
+ e prevedono l'utilizzo di connettori (opportunamente testati) per usufruire
+ di un server di posta: a titolo esemplificativo, e per osservare lo scambio
+ di mail, è stato utilizzato il server Fake SMTP, configurato in locale
+ in ascolto sul porto 25.
+ 
 \end_layout
 
 \end_body
