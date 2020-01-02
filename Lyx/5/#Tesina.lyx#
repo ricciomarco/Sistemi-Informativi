@@ -910,7 +910,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="5">
+<lyxtabular version="3" rows="5" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
@@ -1016,6 +1016,53 @@ conformità dell'ambiente di lavoro
 \begin_inset Text
 
 \begin_layout Plain Layout
+Costo unitario
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Qualità
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 Usabilità software
 \end_layout
 
@@ -1034,7 +1081,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-facilità di apprendimento, facilità di ricordo
+facilià di apprendimento, facilita` di ricordo
 \end_layout
 
 \end_inset
@@ -1081,7 +1128,7 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
-tassi di errore del sistema nella esecuzione di un compito od attività
+
 \end_layout
 
 \end_inset
