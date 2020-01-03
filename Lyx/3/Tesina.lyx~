@@ -821,7 +821,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename images/Diagramma accettazione scheduling con mail-5.0.png
+	filename images/Diagramma accettazione scheduling con mail 2-5.0.png
 	lyxscale 80
 	scale 60
 	rotateOrigin center
@@ -858,6 +858,66 @@ Com'è possibile osservare, ci sono attività di competenza del titolare che
  di mail, è stato utilizzato il server Fake SMTP, configurato in locale
  in ascolto sul porto 25.
  
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una volta runnato il processo, verrà aperta una dashboard con una todo list
+ da cui il titolare può attingere uno o più task da eseguire.
+ Tramite il pulsante 
+\series bold
+take
+\series default
+, un dato task viene assegnato ad un dato utente, che sarà l'unico responsabile
+ di quel task e che dunque lo porterà a termine.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Diagramma accettazione scheduling con mail 2-5.0.png
+	lyxscale 80
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Automazione con Bonita
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In base alla decisione del titolare, nella todo list potrà presentarsi un'altra
+ attività (quella di proposta di una nuova data) oppure il workflow potrà
+ terminare direttamente con l'invio di una mail di conferma riguardo la
+ data stabilita.
 \end_layout
 
 \end_body
