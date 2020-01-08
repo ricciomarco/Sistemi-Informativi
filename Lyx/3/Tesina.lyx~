@@ -625,48 +625,6 @@ regolato
 \end_layout
 
 \begin_layout Subsubsection
-Registrazione Cliente
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Registrazione Cliente-1.0.png
-	lyxscale 40
-	scale 60
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-BP: Registrazione Cliente
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
 Gestione Richiesta Ordine
 \end_layout
 
@@ -886,9 +844,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename images/Diagramma accettazione scheduling con mail 2-5.0.png
-	lyxscale 80
-	scale 60
+	filename images/take.png
+	lyxscale 40
+	scale 50
 	rotateOrigin center
 
 \end_inset

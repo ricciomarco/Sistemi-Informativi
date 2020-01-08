@@ -431,48 +431,6 @@ Activity Diagram
 \end_layout
 
 \begin_layout Subsubsection
-Registrazione Cliente
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Registrazione Cliente.png
-	lyxscale 40
-	scale 60
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-BP: Registrazione Cliente
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
 Gestione Richiesta Ordine
 \end_layout
 
@@ -482,7 +440,7 @@ Gestione Richiesta Ordine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -622,48 +580,6 @@ regolato
  (controllo, branching, sincronizzazione) utilizzate nei linguaggi di workflow
  o di business process modelling.
  
-\end_layout
-
-\begin_layout Subsubsection
-Registrazione Cliente
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/Registrazione Cliente-1.0.png
-	lyxscale 40
-	scale 60
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-BP: Registrazione Cliente
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection

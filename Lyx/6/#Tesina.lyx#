@@ -1187,7 +1187,7 @@ ODOO
 \begin_inset Text
 
 \begin_layout Plain Layout
-0 €
+1296 €
 \end_layout
 
 \end_inset
@@ -1245,7 +1245,7 @@ TOT
 \begin_inset Text
 
 \begin_layout Plain Layout
-€
+778,00€ + 1296€/anno
 \end_layout
 
 \end_inset
@@ -1558,12 +1558,11 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="4">
+<lyxtabular version="3" rows="7" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="15text%">
-<column alignment="center" valignment="top" width="20text%">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
@@ -1583,20 +1582,11 @@ Locale
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Online
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Differenza
+Online
 \end_layout
 
 \end_inset
@@ -1621,20 +1611,11 @@ Hardware
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+778,00 €
 \end_layout
 
 \end_inset
@@ -1659,20 +1640,11 @@ Software
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1296€/anno
 \end_layout
 
 \end_inset
@@ -1697,20 +1669,11 @@ Installazione
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+900 €
 \end_layout
 
 \end_inset
@@ -1735,20 +1698,11 @@ Manutenzione
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+400€ / anno
 \end_layout
 
 \end_inset
@@ -1777,16 +1731,7 @@ TOT
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+1678 €
 \end_layout
 
 \end_inset
@@ -1815,16 +1760,7 @@ TOT annuo
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+1696 €
 \end_layout
 
 \end_inset
@@ -1858,7 +1794,9 @@ Differenza soluzioni
 \end_layout
 
 \begin_layout Standard
-*CONSIDERAZIONI*
+Quindi, a fronte di una forte spesa iniziale, risulta evidente come la soluzione
+ locale sia quella economicamente più vantaggiosa per quanto riguarda i
+ costi da affrontare annualmente.
 \end_layout
 
 \begin_layout Section
@@ -1889,7 +1827,7 @@ status open
 <lyxtabular version="3" rows="5" columns="3">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="15text%">
 <column alignment="center" valignment="top" width="15text%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -1934,7 +1872,7 @@ Interruzione corrente
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Gruppo di continuità
 \end_layout
 
 \end_inset
@@ -1943,7 +1881,7 @@ Interruzione corrente
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3-nines availability
 \end_layout
 
 \end_inset
@@ -1963,7 +1901,7 @@ Interruzione internet
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Servizio parzialmente disponibile
 \end_layout
 
 \end_inset
@@ -1992,7 +1930,7 @@ Sicurezza
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Rete privata, poco esposta a rischi 
 \end_layout
 
 \end_inset
@@ -2001,7 +1939,7 @@ Sicurezza
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Sicurezza garantita da ODOO
 \end_layout
 
 \end_inset
@@ -2012,7 +1950,7 @@ Sicurezza
 \begin_inset Text
 
 \begin_layout Plain Layout
-Single Point of Failure
+Robustezza dati 
 \end_layout
 
 \end_inset
@@ -2021,7 +1959,11 @@ Single Point of Failure
 \begin_inset Text
 
 \begin_layout Plain Layout
+Single Point of Failure,
+\end_layout
 
+\begin_layout Plain Layout
+assenza di replicazione 
 \end_layout
 
 \end_inset
@@ -2030,7 +1972,7 @@ Single Point of Failure
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14 full BackUp garantiti in 3 mesi
 \end_layout
 
 \end_inset
