@@ -766,8 +766,8 @@ BP: Accettazione scheduling
 
 \begin_layout Standard
 Com'è possibile osservare, ci sono attività di competenza del titolare che
- non sono automatizzabili: il controllo dell'urgenza e la decisione riguardo
- la schedulazione dell'ordine accettato come urgente.
+ non sono automatizzabili: la decisione riguardo la pianificazione del lavoro
+ ed un'eventuale proposta di una data diversa.
  Le attività di notifica sono invece eseguite automaticamente dal sistema,
  e prevedono l'utilizzo di connettori (opportunamente testati) per usufruire
  di un server di posta: a titolo esemplificativo, e per osservare lo scambio
@@ -830,9 +830,10 @@ Automazione con Bonita
 \end_layout
 
 \begin_layout Standard
-In base alla decisione del titolare, nella to-do list potrà presentarsi
- un'altra attività oppure il workflow potrà terminare direttamente con l'invio
- di una mail di conferma riguardo la data stabilita.
+In base alla decisione del titolare, nella todo list potrà presentarsi un'altra
+ attività (quella di proposta di una nuova data) oppure il workflow potrà
+ terminare direttamente con l'invio di una mail di conferma riguardo la
+ data stabilita.
 \end_layout
 
 \end_body

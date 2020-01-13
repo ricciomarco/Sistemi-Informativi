@@ -1367,64 +1367,17 @@ Allo stato attuale, l'azienda dispone di:
 
 \begin_layout Itemize
 un iMAC, utilizzato dal titolare, con Processore Intel® Core™ I5, SSD 512
- GB, RAM 8 GB, Display 21,5'' 
+ GB, RAM 8 GB - WiFi IEEE 802.11a/b/g/n - Bluetooth 4.2
 \end_layout
 
 \begin_layout Itemize
 un HP PAVILION 15-CW1077NL, Processore AMD Ryzen 5-3500U, SSD: 256 GB, RAM:
  8 GB - Display: 15,6'' WLED Full HD, utilizzato principalmente dal chimico
- per tenere traccia delle scorte tramite Excel;
+ per tenere traccia delle scorte tramite Excel
 \end_layout
 
 \begin_layout Itemize
-connessione ad internet fibra 100 Mb.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename images/mac.jpg
-	lyxscale 40
-	scale 40
-	rotateOrigin center
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename images/hp.jpg
-	lyxscale 40
-	scale 40
-	rotateOrigin center
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Sistema informatico
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+connessione ad internet.
 \end_layout
 
 \end_body
