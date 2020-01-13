@@ -268,7 +268,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
+<lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -374,53 +374,6 @@ Ordini presi tramite e-commerce, completi, precisi e non ambigui
 \begin_inset Text
 
 \begin_layout Plain Layout
-Affidabilità
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Qualità
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 Soddisfazione
 \end_layout
 
@@ -439,11 +392,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-Influenzata dal tempo
-\end_layout
-
-\begin_layout Plain Layout
-di attesa
+Tasso di soddisfazione su scale qualitative 
 \end_layout
 
 \end_inset
@@ -452,8 +401,7 @@ di attesa
 \begin_inset Text
 
 \begin_layout Plain Layout
-Possibili ritardi dovuti a constatazione in corso d'opera di mancanza materie
- prime
+Media, telefono unico canale di contatto
 \end_layout
 
 \end_inset
@@ -462,7 +410,8 @@ Possibili ritardi dovuti a constatazione in corso d'opera di mancanza materie
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sistema automatico per cui non ci si ritrova mai sottoscorta
+Alta, diversi canali di contatto e possibilità di gestione e tracciabilità
+ degli ordini
 \end_layout
 
 \end_inset
@@ -491,7 +440,11 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
+Influenzata dal tempo
+\end_layout
 
+\begin_layout Plain Layout
+di attesa
 \end_layout
 
 \end_inset
@@ -500,7 +453,8 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Possibili ritardi dovuti a constatazione in corso d'opera di mancanza materie
+ prime
 \end_layout
 
 \end_inset
@@ -509,7 +463,7 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Sistema automatico con gestione sottoscorta
 \end_layout
 
 \end_inset
@@ -568,7 +522,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="5">
+<lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -627,53 +581,6 @@ TO-BE
 \begin_inset Text
 
 \begin_layout Plain Layout
-Conformità
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Qualità
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Conformità del processo rispetto a standard o best practice
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 Produttività
 \end_layout
 
@@ -692,7 +599,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Rendimento delle risorse
 \end_layout
 
 \end_inset
@@ -701,7 +608,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Medio-alta, data dall'esperienza degli utilizzatori del macchinario
 \end_layout
 
 \end_inset
@@ -710,7 +617,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Alta, supportata da migliore schedulazione degli ordini di produzione 
 \end_layout
 
 \end_inset
@@ -748,7 +655,7 @@ Capacità di mantenere le prestazioni attese nel tempo e nello spazio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Bassa (best effort), in quanto dipendente esclusivamente da lavoro manuale
 \end_layout
 
 \end_inset
@@ -757,14 +664,14 @@ Capacità di mantenere le prestazioni attese nel tempo e nello spazio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Alta, grazie alla gestione automatica e integrata dei BP
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -773,7 +680,7 @@ Tempi di risposta
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -782,7 +689,7 @@ Servizio
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -791,58 +698,12 @@ Tempo necessario ad evadere le richieste
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ordini Perfetti
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Servizio
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Quanti ordini si evadono completamente nei tempi obiettivo
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Non sempre prevedibili, mal gestione delle informazioni a disposizione (in
+ media 5 gg)
 \end_layout
 
 \end_inset
@@ -851,7 +712,8 @@ Quanti ordini si evadono completamente nei tempi obiettivo
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Quasi immediati, alto controllo delle informazioni che garantisce migliore
+ schedulazione delle richieste
 \end_layout
 
 \end_inset
@@ -910,7 +772,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="5">
+<lyxtabular version="3" rows="4" columns="5">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
@@ -987,54 +849,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-conformità dell'ambiente di lavoro
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Costo unitario
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Qualità
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Conformità dell'ambiente di lavoro
 \end_layout
 
 \end_inset
@@ -1081,7 +896,7 @@ Qualità
 \begin_inset Text
 
 \begin_layout Plain Layout
-facilità di apprendimento, facilità di ricordo
+Facilità di apprendimento, facilità di ricordo
 \end_layout
 
 \end_inset
@@ -1090,7 +905,7 @@ facilità di apprendimento, facilità di ricordo
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Assenza di SW
 \end_layout
 
 \end_inset
@@ -1099,7 +914,7 @@ facilità di apprendimento, facilità di ricordo
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Alta usabilità, curva di apprendimento alta
 \end_layout
 
 \end_inset
@@ -1128,7 +943,7 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Tassi di errore del sistema nell'esecuzione di un compito od attività
 \end_layout
 
 \end_inset
@@ -1137,7 +952,7 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Medio, gestione cartacea degli ordini
 \end_layout
 
 \end_inset
@@ -1146,7 +961,8 @@ Servizio
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Basso, possibilità di gestione di un alto numero di informazioni grazie
+ alla base di dati integrata dell'ERP
 \end_layout
 
 \end_inset
