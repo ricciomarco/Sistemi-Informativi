@@ -278,14 +278,6 @@ Il modulo Produzione, come anticipato, è quello che permette di definire
  azione che andrà automaticamente ad aggiornare le scorte in magazzino.
 \end_layout
 
-\begin_layout Standard
-Tale modulo è stato customizzato per fornire al titolare la possibilità
- di specificare un ordine come urgente, dandogli una priorità alta, con
- tutti i vantaggi che ne conseguono, come la possibilità di filtrare gli
- ordini per avere una chiara visione di quali sono da mandare in produzione
- prima rispetto agli altri.
-\end_layout
-
 \begin_layout Subsection
 Vendite
 \end_layout
@@ -338,24 +330,11 @@ e di una banca, di un account PayPal, la registrazione di un conto corrente
 \end_layout
 
 \begin_layout Subsection
-Sito Web e E-Commerce
+Sito Web e e-Commerce
 \end_layout
 
 \begin_layout Standard
-Il modulo Sito Web, che ingloba al suo interno le funzionalità offerte dal
- modulo E-Commerce, è il modulo che permette l'innesco di tutti i processi
- di business ridisegnati.
- Tramite questo modulo, infatti, i clienti possono effettuare ordini online
- e ricevere i prodotti direttamente nel loro salone.
- Tale modulo è stato modificato per supportare un punto chiave delle relazioni
- che il titolare intraprende con i clienti: ovvero, la possibilità di ricevere
- richieste di urgenza di un dato ordine.
- Per fare ciò, è stato introdotto un passaggio aggiuntivo nel processo di
- ordine online, che prevede proprio la possibilità da parte dei clienti
- di specificare un'urgenza tramite un breve messaggio.
- Tale messaggio, potrà poi essere letto dal titolare nella pagina del modulo
- vendite, relativa alle comunicazioni con il cliente.
- 
+
 \end_layout
 
 \end_body
