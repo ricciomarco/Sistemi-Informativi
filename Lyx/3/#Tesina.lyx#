@@ -582,6 +582,80 @@ regolato
  
 \end_layout
 
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Gestione richiesta ordine.png
+	lyxscale 40
+	scale 60
+	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Gestione richiesta ordine.png
+	lyxscale 40
+	scale 60
+	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Gestione Richiesta Ordine
 \end_layout
@@ -766,8 +840,8 @@ BP: Accettazione scheduling
 
 \begin_layout Standard
 Com'è possibile osservare, ci sono attività di competenza del titolare che
- non sono automatizzabili: la decisione riguardo la pianificazione del lavoro
- ed un'eventuale proposta di una data diversa.
+ non sono automatizzabili: il controllo dell'urgenza e la decisione riguardo
+ la schedulazione dell'ordine accettato come urgente.
  Le attività di notifica sono invece eseguite automaticamente dal sistema,
  e prevedono l'utilizzo di connettori (opportunamente testati) per usufruire
  di un server di posta: a titolo esemplificativo, e per osservare lo scambio
@@ -830,10 +904,9 @@ Automazione con Bonita
 \end_layout
 
 \begin_layout Standard
-In base alla decisione del titolare, nella todo list potrà presentarsi un'altra
- attività (quella di proposta di una nuova data) oppure il workflow potrà
- terminare direttamente con l'invio di una mail di conferma riguardo la
- data stabilita.
+In base alla decisione del titolare, nella to-do list potrà presentarsi
+ un'altra attività oppure il workflow potrà terminare direttamente con l'invio
+ di una mail di conferma riguardo la data stabilita.
 \end_layout
 
 \end_body
