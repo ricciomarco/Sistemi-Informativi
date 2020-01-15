@@ -184,7 +184,11 @@ Introduzione
 \end_layout
 
 \begin_layout Standard
-*Inserire presentazione azienda*
+Una realtà giovane e dinamica nata nel 2016 (Anno di fondazione) si pone
+ come riferimento nel settore cosmetico per la produzione di prodotti in
+ conto terzi.
+ Il nostro team offre al cliente un servizio a 360°, dallo studio della
+ formula fino alla realizzazione del prodotto cosmetico finito.
 \end_layout
 
 \begin_layout Section
@@ -971,8 +975,12 @@ Modello Funzionale
 Il modello funzionale descrive il sistema informativo dal punto di vista
  dei processi aziendali supportati che richiedono risorse informative per
  la loro esecuzione e dalle funzionalità che offre.
- Per quanto riguarda la classificazione dei processi aziendali, è possibile
- fare riferimento a tre modelli principali: 
+ Per descrivere funzionalmente la realtà studiata sono stati utilizzati
+ gli Activity Diagrams, gli Use Case Diagrams e delle Assembly Lines; per
+ rappresentare invece i flussi informativi è stato realizzato un Data Flow
+ Diagram.
+ Per quanto riguarda la classificazione dei processi aziendali identificati,
+ è possibile fare riferimento a tre modelli principali: 
 \series bold
 La catena del valore di Porter
 \series default
@@ -988,6 +996,321 @@ il modello di Simon
 \end_layout
 
 \begin_layout Subsection
+Diagramma dei casi d'uso
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/as_is.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Casi d'uso
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Allo stato attuale, gli attori che interagiscono con il sistema sono:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Titolare: 
+\series default
+Che si occupa in prima persona di riceve ordini dai clienti e di schedularli
+ sulla base delle necessità degli stessi;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Operaio: 
+\series default
+Ha la gestione operativa del ciclo di produzione, dal caricamento del macchinari
+o fino alla conclusione di un ciclo di produzione notificando nel caso mancanze
+ di materie prime.
+ Si occupa anche dell'evasione degli ordini imballati e quindi dei rapporti
+ con i corrieri;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Chimico: 
+\series default
+Consulente esterno che lavora a tempo pieno nella realtà aziendale e che
+ gestisce con particolare attenzione le distinte dei prodotti, i contatti
+ con i fornitori e le scorte in magazzino;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Contabilità Esterna: 
+\series default
+Che si occupa di gestire ed analizzare la situazione fiscale nell'azienda;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Cliente: 
+\series default
+Può effettuare un certo ordine chiamando telefonicamente il titolare.
+\end_layout
+
+\begin_layout Subsection
+Activity Diagram
+\end_layout
+
+\begin_layout Standard
+Per descrivere lo stato attuale dei processi di business sono stati utilizzati
+ i seguenti Activity Diagrams:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/BP_Gestione Richiesta Ordine_AS_IS.png
+	lyxscale 40
+	scale 45
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/BP_Produzione_AS_IS.png
+	lyxscale 40
+	scale 40
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Produzione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/BP_Evasione_AS_IS.png
+	lyxscale 40
+	scale 45
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Evasione Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Assembly Lines
+\end_layout
+
+\begin_layout Standard
+E' stato utilizzato il modello delle Assembly Lines al fine di fornire una
+ visione d'insieme delle funzionalità offerte dal sistema, necessarie all'esecuz
+ione delle attività dei processi; delle classi di dati gestite con i relativi
+ flussi informativi e dei processi supportati dal sistema informativo come
+ flusso di attività.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Assembly Lines as_is.png
+	lyxscale 40
+	scale 45
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Assembly lines
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Data Flow Diagram
+\end_layout
+
+\begin_layout Standard
+Per modellare il flusso di dati durante l'esecuzione dei processi è stato
+ utilizzato un Data Flow Diagram.
+ Si ha quindi una visione del sistema come un insmee di processi collegati
+ fra loro da flussi di dati che mostrano, quindi, come i dati protod
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/Assembly Lines as_is.png
+	lyxscale 40
+	scale 45
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Assembly lines
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
 Catena del valore di Porter
 \end_layout
 
@@ -1000,20 +1323,22 @@ Secondo il modello di Porter, la struttura organizzativa dell’azienda può
 \begin_layout Enumerate
 
 \series bold
-Logistica interna:
+Logistica in ingresso:
 \series default
- processi relativi alla gestione interna dei prodotti, come ad esempio il
- controllo del magazzino;
+ processi relativi ai flussi in ingresso di risorse necessarie per la produzione
+ del bene, come ad esempio l'acquisizione di materie prime dai fornitori;
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-Produzione:
+Attività Operative:
 \series default
  attività di mescolazione di materie prime tramite un macchinario industriale,
  che viene delegata agli operai o al chimico, al fine di ottenere i prodotti
- finali;
+ finali.
+ Attività di sheduling e gestione degli ordini dei clienti al fine di ottimizzar
+e i tempi di utilizzo del macchinario
 \end_layout
 
 \begin_layout Enumerate
@@ -1021,15 +1346,20 @@ Produzione:
 \series bold
 Logistica esterna:
 \series default
- gestione dell’esportazione dei beni verso i clienti;
+ gestione dell’esportazione dei beni verso i clienti; rapporti con gli spedizion
+ieri al fine di evadere i diversi ordini nella maniera più tempestiva possibile;
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-Marketing e Vendite:
+Marketing e Vendite: 
 \series default
- non presente;
+non
+\series bold
+ 
+\series default
+presente;
 \end_layout
 
 \begin_layout Enumerate
@@ -1050,8 +1380,8 @@ Mentre i 4 processi secondari sono:
 \series bold
 Approvvigionamenti:
 \series default
- attività preposte all’acquisto delle materie prime, necessarie alla realizzazio
-ne dei prodotti, come shampi, cere per capelli, etc.
+ attività preposte alla gestione delle scorte in magazzino; gestione dei
+ modi e termini delle richieste effettuate ai fornitori;
 \end_layout
 
 \begin_layout Enumerate
@@ -1067,7 +1397,8 @@ Infrastrutture:
 \series bold
 Tecnologia:
 \series default
- non presente; 
+ Ricerca da parte del chimico di nuove formule per la creazione di nuovi
+ tipi di prodotti; 
 \end_layout
 
 \begin_layout Enumerate
@@ -1134,21 +1465,30 @@ Per avere un quadro completo della situazione all’interno dell’azienda,
 \series bold
 Attività strategiche:
 \series default
- dati i numerosi contatti già instaurati dall'azienda, si vuole puntare
- a migliorare i rapporti già esistenti con i clienti attuali, tramite una
- maggiore comunicazione con gli stessi e fornendogli un servizio più efficiente,
- andando quindi a migliorare i processi aziendali e il modo con cui i clienti
- interagiscono.
+ Attività legate al futuro incremento dei canali di comunicazione con i
+ clenti, al fine di aumentarne la fidelizzazione, agendo sulla possibilità
+ di customizzazione dei prodotti finali sulla base delle esigenze degli
+ aquirenti.
+ Dati i numerosi contatti già instaurati dall'azienda, si vuole puntare
+ a migliorare i rapporti già esistenti e di allargare il proprio network
+ aumentando l'efficacia dei BP.
+ L'amministrazione ha intenzione di analizzare la situazione allo stato
+ attuale dei diversi processi aziendali e studiare i risultati di diversi
+ KPI al fine di effetuare una reingegnerizzazione degli stessi (BPR) ( Creazione
+ di canali digitali al fine di ottenere un maggior flusso di dati relativi
+ ai clienti e fornitori al fine di studiarne le esigenze).
  
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-Attività tattiche:
+Attività tattiche: 
 \series default
- fornire più canali di comunicazione, migliorare il processo produttivo
- e l'evasione degli ordini.
+Automatizzazione e aumento del controllo dei flussi informativi interni,
+ gestione efficace ed efficiente del magazzino al fine di migliorare l'utilizzo
+ del macchinario, gestione uniforme dei dati relativi agli attori che interagisc
+ono con l'azienda.
 \end_layout
 
 \begin_layout Enumerate
@@ -1156,8 +1496,12 @@ Attività tattiche:
 \series bold
 Attività operative:
 \series default
- creazione sito web (tramite il quale effettuare ordini), automazione contatti
- con clienti, gestione automatica scorte, gestione evasione ordini e contabilità.
+ Creazione di un canale e-commerce con social chat tramite il quale acquisire
+ informazioni relative agli Stackholders esterni.
+ Automatizzazione dove possibile dei processi e flussi informativi relativi
+ al ciclo di produzione interno del prodotto.
+ Uniformazione dei dati relativi aziendali tramite la creazione di una banca
+ dati univoca.
 \end_layout
 
 \begin_layout Standard
@@ -1167,7 +1511,7 @@ Attività operative:
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1199,7 +1543,8 @@ Piramide di Anthony
 
 \begin_layout Standard
 Volendo trovare una corrispondenza con la struttura del modello di Simon,
- non ci sono attività difficilmente strutturabili, ma sono state individuate:
+ è stata fatta una classificazione delle attività riguardo il loro grado
+ di strutturazione:
 \end_layout
 
 \begin_layout Itemize
@@ -1223,8 +1568,8 @@ Attività parzialmente strutturabili:
 \series bold
 Attività completamente strutturabili:
 \series default
- gestione delle scorte in magazzino, gestione della contabilità e anagrafica
- clienti.
+ gestione delle scorte in magazzino, gestione della contabilità, acquisizione
+ informazioni clienti e uniformità delle informazioni interne.
 \end_layout
 
 \begin_layout Standard
@@ -1266,24 +1611,161 @@ Piramide di Simon
 \end_layout
 
 \begin_layout Subsection
-Diagramma dei casi d'uso
+
+\lang american
+Analisi SWOT
+\end_layout
+
+\begin_layout Standard
+
+\lang american
+Per poter meglio progettare il sistema che l'azienda adotterà, si è pensato
+ fare leva sulle criticità della situazione as-is.
+ Ciononostante, parte della soluzione finale potrebbe dipendere anche da
+ punti di forza o opportunità di mercato.
+ Per non escludere nessuna possibilità, è stata condotta un'analisi SWOT,
+ andando dunque ad analizzare ambiente esterno (minacce/opportunità) e ambiente
+ interno (punti di forza/debolezza).
+ 
 \end_layout
 
 \begin_layout Standard
 \align center
-\begin_inset Float figure
+
+\lang american
+\begin_inset Float table
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/as_is.png
-	lyxscale 40
-	scale 60
-	rotateOrigin center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="bottom" width="40page%">
+<column alignment="left" valignment="middle" width="30page%">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Opportunità
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Minacce
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Diffondersi della cultura digitale
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+\noindent
+\align left
+Nuovi entranti nel mercato
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Punti di Forza
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Punti di Debolezza
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Pochi dipendenti / facilità di comunicazione
+\end_layout
+
+\begin_layout Itemize
+Minimo costo gestione della contabilità
+\end_layout
+
+\begin_layout Itemize
+Network di clientela consolidato
+\end_layout
+
+\begin_layout Itemize
+Processo di produzione semplice e soggetto a pochi vincoli
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+\noindent
+\align left
+Definizione non univoca dei ruoli
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+Mancanza processo strutturato per rapporti con clienti/fornitori
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+Mancanza gestione integrata scorte
+\end_layout
+
+\begin_layout Itemize
+\noindent
+\align left
+Gestione non uniforme dei dati interni aziendali (anagrafica, rendicontazione,
+ ecc)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
@@ -1291,10 +1773,13 @@ status collapsed
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+
+\lang american
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Casi d'uso
+Analisi SWOT
 \end_layout
 
 \end_inset
@@ -1307,16 +1792,50 @@ Casi d'uso
 
 \end_layout
 
-\begin_layout Subsection
-Activity Diagram
+\begin_layout Standard
+
+\lang american
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le azioni che ne derivano sono le seguenti:
+\end_layout
+
+\begin_layout Itemize
+Creazione di un sito web/e-commerce per incrementare la facilità di interfacciam
+ento con i clienti;
+\end_layout
+
+\begin_layout Itemize
+Adozione di un ERP per una gestione integrata dell'intera impresa, dei rapporti
+ con clienti/fornitori e dei dati interni aziendali.
 \end_layout
 
 \begin_layout Subsection
-Data Flow Diagram
+Modello informatico
 \end_layout
 
-\begin_layout Subsection
-Assembly Lines
+\begin_layout Standard
+Allo stato attuale, l'azienda dispone di:
+\end_layout
+
+\begin_layout Itemize
+un iMAC, utilizzato dal titolare, con Processore Intel® Core™ I5, SSD 512
+ GB, RAM 8 GB, Display 21,5'' 
+\end_layout
+
+\begin_layout Itemize
+un HP PAVILION 15-CW1077NL, Processore AMD Ryzen 5-3500U, SSD: 256 GB, RAM:
+ 8 GB - Display: 15,6'' WLED Full HD, utilizzato principalmente dal chimico
+ per tenere traccia delle scorte tramite Excel;
+\end_layout
+
+\begin_layout Itemize
+connessione ad internet fibra 100 Mb.
 \end_layout
 
 \begin_layout Standard
@@ -1330,9 +1849,18 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/Assembly Lines as_is.png
+	filename images/mac.jpg
 	lyxscale 40
-	scale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/hp.jpg
+	lyxscale 40
+	scale 35
 	rotateOrigin center
 
 \end_inset
@@ -1344,7 +1872,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Assembly lines
+Sistema informatico
 \end_layout
 
 \end_inset
@@ -1355,29 +1883,6 @@ Assembly lines
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Modello informatico
-\end_layout
-
-\begin_layout Standard
-Allo stato attuale, l'azienda dispone di:
-\end_layout
-
-\begin_layout Itemize
-un iMAC, utilizzato dal titolare, con Processore Intel® Core™ I5, SSD 512
- GB, RAM 8 GB - WiFi IEEE 802.11a/b/g/n - Bluetooth 4.2
-\end_layout
-
-\begin_layout Itemize
-un HP PAVILION 15-CW1077NL, Processore AMD Ryzen 5-3500U, SSD: 256 GB, RAM:
- 8 GB - Display: 15,6'' WLED Full HD, utilizzato principalmente dal chimico
- per tenere traccia delle scorte tramite Excel
-\end_layout
-
-\begin_layout Itemize
-connessione ad internet.
 \end_layout
 
 \end_body
