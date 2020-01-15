@@ -198,7 +198,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/to_be.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/to_be.png
 	lyxscale 40
 	scale 60
 	rotateOrigin center
@@ -230,6 +230,49 @@ Activity Diagram
 \end_layout
 
 \begin_layout Subsubsection
+Ricezione Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richiesta Ordine.png
+	lyxscale 40
+	scale 60
+	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Gestione Richiesta Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Gestione Richiesta Ordine
 \end_layout
 
@@ -239,12 +282,12 @@ Gestione Richiesta Ordine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richiesta Ordine.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richiesta Ordine.png
 	lyxscale 40
 	scale 60
 	rotateAngle -90
@@ -282,12 +325,12 @@ Evasione Ordine
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Evasione ordine.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Evasione ordine.png
 	lyxscale 40
 	scale 60
 	rotateOrigin center
@@ -324,12 +367,12 @@ Riordino magazzino
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Riordino Magazzino.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Riordino Magazzino.png
 	lyxscale 40
 	scale 60
 	rotateOrigin center
@@ -382,7 +425,7 @@ regolato
 \end_layout
 
 \begin_layout Subsubsection
-Gestione Richiesta Ordine
+Ricezione ordine
 \end_layout
 
 \begin_layout Standard
@@ -400,6 +443,48 @@ status open
 	lyxscale 40
 	scale 60
 	rotateAngle -90
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+BP: Ricezione Ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Gestione Richiesta Ordine
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/avvio ordine.png
+	lyxscale 40
+	scale 60
 	rotateOrigin center
 
 \end_inset

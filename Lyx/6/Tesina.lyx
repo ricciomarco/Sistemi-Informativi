@@ -1133,9 +1133,43 @@ Soluzione online
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/preventivo.png
+	lyxscale 40
+	scale 45
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
 
 \lang american
-*preventivo moduli odoo*
+Preventivo moduli Odoo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1540,7 +1574,7 @@ Le soluzioni mostrate differiscono principalmente per il sistema informatico
  parte di questo onere è a carico di ODOO: infatti la licenza acquistata
  prevede l'utilizzo di un server remoto, la cui manutenzione è compresa
  nei costi della licenza stessa.
- Inoltre, ODOO offre un'availability dii 3 nines.
+ Inoltre, ODOO offre un'availability di 3 nines.
  A tali vantaggi corrisponderà, di contro, un aumento dei costi di licenza.
  Si riportano di seguito le differenze di costo tra le due soluzioni.
 \end_layout
