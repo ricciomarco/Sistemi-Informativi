@@ -184,11 +184,14 @@ Introduzione
 \end_layout
 
 \begin_layout Standard
-Una realtà giovane e dinamica nata nel 2016 (Anno di fondazione) si pone
- come riferimento nel settore cosmetico per la produzione di prodotti in
- conto terzi.
- Il nostro team offre al cliente un servizio a 360°, dallo studio della
- formula fino alla realizzazione del prodotto cosmetico finito.
+Il caso di studio analizzato è una PMI nata nel 2016: DB Cosmetics.
+ Essa rappresenta un riferimento nel settore cosmetico per la produzione
+ di prodotti in conto terzi.
+ L'obiettivo è partire dallo studio della formula fino ad arrivare alla
+ realizzazione del prodotto cosmetico finito.
+ I principali clienti sono saloni di bellezza che necessitano di prodotti
+ quali cere, shampoo, balsami e diversi olii.
+ Il network della clientela è attualmente già consolidato.
 \end_layout
 
 \begin_layout Section
@@ -197,6 +200,44 @@ Modello organizzativo
 
 \begin_layout Subsection
 Organigramma
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/organigramma.png
+	lyxscale 40
+	scale 60
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Organigramma
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -967,6 +1008,54 @@ Matrice LRC
 
 \end_layout
 
+\begin_layout Standard
+
+\lang american
+Dove:
+\end_layout
+
+\begin_layout Itemize
+
+\lang american
+Responsible (
+\series bold
+R
+\series default
+): è colui che esegue e assegna l'attività
+\end_layout
+
+\begin_layout Itemize
+
+\lang american
+Accountable (
+\series bold
+A
+\series default
+): è colui che ha la responsabilità sul risultato dell'attività.
+ È univocamente assegnato.
+\end_layout
+
+\begin_layout Itemize
+
+\lang american
+Consulted (
+\series bold
+C
+\series default
+): è la persona che aiuta e collabora con il Responsible per l'esecuzione
+ dell'attività.
+\end_layout
+
+\begin_layout Itemize
+
+\lang american
+Informed (
+\series bold
+I
+\series default
+): è colui che deve essere informato al momento dell'esecuzione dell'attività.
+\end_layout
+
 \begin_layout Section
 Modello Funzionale
 \end_layout
@@ -982,7 +1071,7 @@ Il modello funzionale descrive il sistema informativo dal punto di vista
  Per quanto riguarda la classificazione dei processi aziendali identificati,
  è possibile fare riferimento a tre modelli principali: 
 \series bold
-La catena del valore di Porter
+la catena del valore di Porter
 \series default
 , 
 \series bold
@@ -1005,14 +1094,14 @@ Diagramma dei casi d'uso
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
 	filename images/as_is.png
 	lyxscale 40
-	scale 60
+	scale 50
 	rotateOrigin center
 
 \end_inset
@@ -1097,6 +1186,10 @@ Per descrivere lo stato attuale dei processi di business sono stati utilizzati
  i seguenti Activity Diagrams:
 \end_layout
 
+\begin_layout Subsubsection
+Ricezione ordine
+\end_layout
+
 \begin_layout Standard
 \align center
 \begin_inset Float figure
@@ -1122,17 +1215,21 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+Ricezione ordine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Gestione Richiesta Ordine
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1160,7 +1257,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Produzione
+Gestione Richiesta Ordine
 \end_layout
 
 \end_inset
@@ -1171,6 +1268,10 @@ Produzione
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Evasione Ordine
 \end_layout
 
 \begin_layout Standard
@@ -1286,7 +1387,7 @@ status open
 \begin_inset Graphics
 	filename images/Untitled Diagram.jpg
 	lyxscale 40
-	scale 45
+	scale 50
 	rotateOrigin center
 
 \end_inset
@@ -1339,13 +1440,13 @@ Attività Operative:
  che viene delegata agli operai o al chimico, al fine di ottenere i prodotti
  finali.
  Attività di sheduling e gestione degli ordini dei clienti al fine di ottimizzar
-e i tempi di utilizzo del macchinario
+e i tempi di utilizzo del macchinario;
 \end_layout
 
 \begin_layout Enumerate
 
 \series bold
-Logistica esterna:
+Logistica in uscita:
 \series default
  gestione dell’esportazione dei beni verso i clienti; rapporti con gli spedizion
 ieri al fine di evadere i diversi ordini nella maniera più tempestiva possibile;
@@ -1390,7 +1491,7 @@ Approvvigionamenti:
 \series bold
 Infrastrutture:
 \series default
- gestione della contabilità, affari legali; 
+ non presente;
 \end_layout
 
 \begin_layout Enumerate
@@ -1398,7 +1499,7 @@ Infrastrutture:
 \series bold
 Tecnologia:
 \series default
- Ricerca da parte del chimico di nuove formule per la creazione di nuovi
+ ricerca da parte del chimico di nuove formule per la creazione di nuovi
  tipi di prodotti; 
 \end_layout
 
@@ -1475,7 +1576,7 @@ Attività strategiche:
  aumentando l'efficacia dei BP.
  L'amministrazione ha intenzione di analizzare la situazione allo stato
  attuale dei diversi processi aziendali e studiare i risultati di diversi
- KPI al fine di effetuare una reingegnerizzazione degli stessi (BPR) ( Creazione
+ KPI al fine di effettuare una reingegnerizzazione degli stessi (BPR) (creazione
  di canali digitali al fine di ottenere un maggior flusso di dati relativi
  ai clienti e fornitori al fine di studiarne le esigenze).
  
@@ -1553,7 +1654,7 @@ Volendo trovare una corrispondenza con la struttura del modello di Simon,
 \series bold
 Attività difficilmente strutturabili:
 \series default
- Schedulazione ordini in produzione;
+ schedulazione ordini in produzione;
 \end_layout
 
 \begin_layout Itemize
@@ -1570,7 +1671,7 @@ Attività parzialmente strutturabili:
 Attività completamente strutturabili:
 \series default
  gestione delle scorte in magazzino, gestione della contabilità, acquisizione
- informazioni clienti e uniformità delle informazioni interne.
+ informazioni clienti.
 \end_layout
 
 \begin_layout Standard

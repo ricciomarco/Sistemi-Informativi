@@ -240,6 +240,44 @@ Magazzino
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/magazzino0.png
+	lyxscale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Magazzino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Il modulo Magazzino è un modulo fondamentale: esso consente di tenere traccia
  delle giacenze, nonché di tutte le operazioni di logistica in ingresso/uscita;
  ad ognuna di queste operazioni corrisponderà un aggiornamento automatico
@@ -257,10 +295,86 @@ automaticamente
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/magazzino riordino.png
+	lyxscale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Magazzino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Il modulo magazzino lavora a stretto contatto con altri moduli, opportunamente
  installati, permettendo di gestire la messa in produzione degli ordini,
  nonchè l'interfacciamento con le vendite e gli acquisti.
  
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/magazzino3.png
+	lyxscale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Magazzino
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -276,6 +390,124 @@ Il modulo Produzione, come anticipato, è quello che permette di definire
  offerto dal magazzino, semplicemente premendo un pulsante.
  Con la stessa semplicità è possibile notificare il termine di produzione,
  azione che andrà automaticamente ad aggiornare le scorte in magazzino.
+\end_layout
+
+\begin_layout Standard
+Tale modulo è stato customizzato per fornire al titolare la possibilità
+ di specificare un ordine come urgente, dandogli una priorità alta, con
+ tutti i vantaggi che ne conseguono, come la possibilità di filtrare gli
+ ordini per avere una chiara visione di quali sono da mandare in produzione
+ prima rispetto agli altri.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/magazzino2.png
+	lyxscale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Produzione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/magazzino8.png
+	lyxscale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Produzione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/magazzino7.png
+	lyxscale 40
+	scale 35
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Produzione
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -343,7 +575,11 @@ Il modulo Sito Web, che ingloba al suo interno le funzionalità offerte dal
  che il titolare intraprende con i clienti: ovvero, la possibilità di ricevere
  richieste di urgenza di un dato ordine.
  Per fare ciò, è stato introdotto un passaggio aggiuntivo nel processo di
- ordine online, che prevede proprio la apos
+ ordine online, che prevede proprio la possibilità da parte dei clienti
+ di specificare un'urgenza tramite un breve messaggio.
+ Tale messaggio, potrà poi essere letto dal titolare direttamente nella
+ pagina del modulo vendite, relativa alle comunicazioni con il cliente.
+ 
 \end_layout
 
 \end_body

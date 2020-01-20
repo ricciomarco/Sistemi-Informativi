@@ -244,7 +244,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richiesta Ordine.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richieste Clienti_TO_BE.png
 	lyxscale 40
 	scale 60
 	rotateAngle -90
@@ -259,7 +259,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-BP: Gestione Richiesta Ordine
+BP: Ricezione Ordine
 \end_layout
 
 \end_inset
@@ -287,7 +287,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Richiesta Ordine.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Gestione Produzione_TO_BE.png
 	lyxscale 40
 	scale 60
 	rotateAngle -90
@@ -330,7 +330,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Evasione ordine.png
+	filename /Users/marcoriccio/Desktop/Tesina SI/Sistemi-Informativi/UML/Progetto/BP_Evasione Ordine_TO_BE.png
 	lyxscale 40
 	scale 60
 	rotateOrigin center
@@ -439,9 +439,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename images/Gestione richiesta ordine.png
+	filename images/presa ordine.png
 	lyxscale 40
-	scale 60
+	scale 55
 	rotateAngle -90
 	rotateOrigin center
 
@@ -482,7 +482,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename images/avvio ordine.png
+	filename images/gestione ordine.png
 	lyxscale 40
 	scale 60
 	rotateOrigin center
@@ -716,7 +716,7 @@ Automazione con Bonita
 \begin_layout Standard
 In base alla decisione del titolare, nella to-do list potrà presentarsi
  un'altra attività oppure il workflow potrà terminare direttamente con l'invio
- di una mail di conferma riguardo la data stabilita.
+ di una mail di conferma.
 \end_layout
 
 \end_body
